@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+
+
+
+
 class Node {
 public:
     int value;
@@ -57,6 +61,8 @@ int main() {
     Node* head = NULL;
     LinkedList* list = new LinkedList();
 
+    list->pushNode(&head, 4);
+    list->pushNode(&head, 4);
     list->pushNode(&head, 4);
 
     list->pushNode(&head, 4);
