@@ -67,6 +67,9 @@ int main() {
 
     list->pushNode(&head, 4);
     list->pushNode(&head, 4);
+
+    list->pushNode(&head, 4);
+    list->pushNode(&head, 4);
     list->pushNode(&head, 5);
     list->pushNode(&head, 32);
 
