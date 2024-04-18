@@ -1,7 +1,7 @@
 #merge strings in alternating array 
 
 
-class Solution(Object):
+class Solution(object):
         def mergeAlternately(self, word1, word2):
                 i , j
 
@@ -14,7 +14,7 @@ class Solution(Object):
                 res.append(word1[i:])
                 res.append(word2[j:])
 
-                return "".join(result)
+                return "".join(res)
         
 
 
